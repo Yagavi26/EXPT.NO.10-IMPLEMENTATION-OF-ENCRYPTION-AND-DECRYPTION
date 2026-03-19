@@ -7,13 +7,15 @@ To implement encryption and decryption using C program.
 PC with Linux operating system
 
 # PROCEDURE:
-1] Open code blocks and type the program for encryption and decryption. 2] Save the program using extension .c
+1] Open code blocks and type the program for encryption and decryption. 
+2] Save the program using extension .c
 3]	Run the program using build and run.
 4]	Prime number is given as input. If it is not a prime number then wrong input is displayed. 5] Then a message is entered.
 6]	The encrypted form of the message is displayed.
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 
 # PROGRAM:
+```
 #include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
@@ -102,7 +104,7 @@ for(i=0;m[i]!=-1; i++
 )
 printf("%c",m[i]);
 }
-
+```
 
 
 
@@ -110,6 +112,7 @@ printf("%c",m[i]);
 # OUTPUT:
 
  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cbd8af9c-e532-412b-ae2e-cb6d38f4c460" />
 
 
 # RESULT:
